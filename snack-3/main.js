@@ -34,10 +34,10 @@ console.log(sum);
 //ask user to insert 10 numbers and sum them directly to a variable initial setted to 0
 let summ = 0;
 for (let i = 0; i < 10; i++) {
-  sum += Number(prompt("Inserisci un numero qualunque"));
+  summ += Number(prompt("Inserisci un numero qualunque"));
 }
 
 //print the sum variable
-console.log(sum);
+console.log(summ);
 
 */
