@@ -10,7 +10,7 @@ const secondNumber = prompt("Inserisci un altro numero [es. 1, 2, 3, ...]");
 if (firstNumber > secondNumber) {
   alert(`Il primo numero è maggiore del secondo: ${firstNumber}`);
 } else if (secondNumber > firstNumber) {
-  alert(`Il secondo numero è maggiore del secondo: ${secondNumber}`);
+  alert(`Il secondo numero è maggiore del primo: ${secondNumber}`);
 } else {
   alert(`I due numeri sono uguali: ${firstNumber} e ${secondNumber}`);
 }
